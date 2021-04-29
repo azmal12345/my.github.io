@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap4  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- awesome cdn  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- css  -->
+    <link rel="stylesheet" href="styleFile/index.css">
+    <!-- favbicon  -->
+    <link rel="fav icon" href="logo.png.png">
+    <!-- mediaqueery  -->
+    <link rel="stylesheet" href="styleFile/mediaQueery.css">
+    <!-- javascript  -->
+    <script defer src="index.js"></script>
+
+    <title>Flag</title>
+</head>
+<body>
+
+    <header class="clickDisplay">
+        <div class="logo_flag searchClick">
+            <img src="logo.png.png" alt="This is a logo">
+        </div>
+        <nav class="searchClick">
+            <ul id="list_item">
+                <li class="clickSound"><a href="#">Flag</a></li>
+                <li class="clickSound"><a href="#">Passports</a></li>
+                <li class="clickSound"><a href="#">Currency</a></li>
+                <li class="clickSound"><a href="#">Earth</a></li>
+                <li class="clickSound"><a href="#">Google Map</a></li>
+                <li class="clickSound"><a href="#"><i class="fa fa-search" id="searchInput"></i></a></li>
+            </ul>
+        </nav>
+        <div class="bars_icon searchInputDislay" id="bars">
+            <div class="bars_line"></div>
+            <div class="bars_line activeLine"></div>
+            <div class="bars_line"></div>
+        </div>
+        <!-- search input  -->
+        <div class="searchBox">
+            <form>
+                <input type="text" id="keyup" class="inputKey" placeholder="Enter Your Country Name">
+            </form>
+            <i class="fa fa-angle-left angleLeft" id="angleLeftButton"></i>
+        </div>
+    </header>
+
+    <!-- scroll button start  -->
+    <a href="#" class="scrollTop">
+        <i class="fa fa-angle-up"></i>
+    </a>
+    <!-- scroll button end  -->
+
+    <main class="marginTop clickDisplay">
+        <article>
+            <section>
+                <div class="container">
+                    <ul id="myFlag">
+                        <li>
+                            <img class="imgFlag" src="flagImg/Afghanistan.png.png" id=0 alt="Afghanistan">
+                            <p>Afghanistan</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/albania.png.png" id=1 alt="albania">
+                            <p>Albania</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/algeria.png.png" id=2 alt="algeria">
+                            <p>Algeria</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/aland_Island.png.png" id=3 alt="Aland Islands">
+                            <p>Aland Islands</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/american_samoa.png.png" id=4 alt="american samoa">
+                            <p>American Samoa</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/andorra.png.png" id=5 alt="Andorra">
+                            <p>Andorra</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/angola.png.png" id=6 alt="angola">
+                            <p>Angola</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/anguilla.png.png" id=7 alt="anguilla">
+                            <p>Anguilla</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/antarctica.png.png" id=8 alt="antarctica">
+                            <p>Antarctica</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/antigua_and_barbuda.png.png" id=9 alt="Antigua and Barbuda">
+                            <p>Antigua and Barbuda</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/argentina.png.png" id=10 alt="argentina">
+                            <p>Argentina</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/armenia.png.png" id=11 alt="Armenia">
+                            <p>Armenia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/aruba.pna.png" id=12 alt="Aruba">
+                            <p>Aruba</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/australia.png.png" id=13 alt="Australia">
+                            <p>Australia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/austria.png.png" id=14 alt="Austria">
+                            <p>Austria</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/azerbaijan.png.png" id=15 alt="Azerbaijan">
+                            <p>Azerbaijan</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/bahamas.png.png" id=16 alt="Bahamas">
+                            <p>Bahamas</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/bahrain.png.png" id=17 alt="Bahrain">
+                            <p>Bahrain</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/bangaldesh.png.png" id=18 alt="Bangladesh">
+                            <p>Bangladesh</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/barbados.png.png" id=19 alt="Barbados">
+                            <p>Barbados</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/belarus.png.png" id=20 alt="Belarus">
+                            <p>Belarus</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/belgium.png.png" id=21 alt="Belgium">
+                            <p>Belgium</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/belize.png.png" id=22 alt="Belize">
+                            <p>Belize</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/benin.png.png" id=23 alt="Benin">
+                            <p>Benin</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/bermuda.png.png" id=24 alt="Bermuda">
+                            <p>Bermuda</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/bhutan.png.png" id=25 alt="Bhutan">
+                            <p>Bhutan</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/bolivia.png.png" id=26 alt="Bolivia">
+                            <p>Bolivia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/bosnia_abd_herzegovina.png.png" id=27 alt="Bosnia and Herzegovina">
+                            <p>Bosnia and <br> Herzegovina</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/botswana.png.png" id=28 alt="Botswana">
+                            <p>Botswana</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/bouvet_island.png.png" id=29 alt="Bouvet Island">
+                            <p>Bouvet Island</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/brazil.png.png" id=30 alt="Brazil">
+                            <p>Brazil</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/british_indian_ocean.png.png" id=31 alt="British Indian Ocean Territory">
+                            <p>British Indian <br> Ocean Territory</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/BritishVirgiIslands.png.png" id=32 alt="British Virgin Islands">
+                            <p>British Virgin Islands</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/brunei.png.png" id=33 alt="Brunei">
+                            <p>Brunei</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/bulgaria.png.png" id=34 alt="Bulgaria">
+                            <p>Bulgaria</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/burkina_faso.png.png" id=35 alt="burkina faso">
+                            <p>Burkina Faso</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/burundi.png.png" id=36 alt="burundi">
+                            <p>Burundi</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/cambodia.png.png" id=37 alt="cambodia">
+                            <p>Cambodia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/cameroon.png.png" id=38 alt="cameroon">
+                            <p>Cameroon</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/canada.png.png" id=39 alt="canada">
+                            <p>Canada</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/cape_verde.png.png" id=40 alt="cape verde">
+                            <p>Cape Verde</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/cayman_Islands.png.png" id=41 alt="cayman islands">
+                            <p>Cayman Islands</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/central_african_republick.png.png" id=42 alt="central african republic">
+                            <p>Center <br> African Republic</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/chad.png.png" id=43 alt="chad">
+                            <p>Chad</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/chile.png.png" id=44 alt="chile">
+                            <p>Chile</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/china.png.png" id=45 alt="china">
+                            <p>China</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/cherstmas_island.png.png" id=47 alt="christmas islands">
+                            <p>Christmas Island</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/cocos_islands.png.png" id=48 alt="cocos islands">
+                            <p>Cocos Islands</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/colombia.png.png" id=49 alt="colombia">
+                            <p>Colombia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/comoros.png.png" id=50 alt="comoros">
+                            <p>Comoros</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/cook_islands.png.png" id=51 alt="cook islands">
+                            <p>Cook Islands</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/costa_rica.png.png" id=52 alt="costa rica">
+                            <p>Costa Rica</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/croatia.png.png" id=53 alt="Croatia">
+                            <p>Croatia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/cuba.png.png" id=54 alt="cuba">
+                            <p>Cuba</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/curacao.png.png" id=55 alt="curaxao">
+                            <p>Curacao</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/cyprus.png.png" id=56 alt="cyprus">
+                            <p>Cyprus</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/czechina.png.png" id=57 alt="czechina">
+                            <p>Czechina</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/republic_of_the_congo.png.png" id=58 alt="Republic of the Congo">
+                            <p>Republic <br> of the Congo</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/denmark.png.png" id=59 alt="denmark">
+                            <p>Denmark</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/djibouti.png.png" id=60 alt="djibouti">
+                            <p>Djibouti</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/dominica.png.png" id=61 alt="Dominica">
+                            <p>Dominica</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/dominicab_republic.png.png" id=62 alt="dominican republic">
+                            <p>Dominican Republic</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/East_Timor.png.png" id=63 alt="East Timor">
+                            <p>East Timor</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/ecuador.png.png" id=64 alt="ecuador">
+                            <p>Ecuador</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/egypt.png.png" id=65 alt="egypt">
+                            <p>Egypt</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/el_salvador.png.png" id=66 alt="el salvador">
+                            <p>El Salvador</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/eqyatorial_guinea.png.png" id=67 alt="equatirial guinea">
+                            <p>Equatorial Guinea</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/eritrea.png.png" id=68 alt="eritrea">
+                            <p>Eritrea</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/estonia.png.png" id=69 alt="estonia">
+                            <p>Estonia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/ethuopis.png.png" id=70 alt="Ethiopia">
+                            <p>Ethiopia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/falkland_isnland.png.png" id=71 alt="falkland islands">
+                            <p>Falkland Islands</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/faroe_islands.png.png" id=72 alt="faroe islands">
+                            <p>Faroe Islands</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/fiji.png.png" id=73 alt="fiji">
+                            <p>Fiji</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/finland.png.png" id=74 alt="finland">
+                            <p>Finland</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/france.png.png" id=75 alt="france">
+                            <p>France</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/french_polynesia.png.png" id=76 alt="French Polynesia">
+                            <p>French Polynesia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/gabon.png.png" id=77 alt="gabon">
+                            <p>Gabon</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/gambia.png.png" id=78 alt="Gambia">
+                            <p>Gambia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/georgia.png.png" id=79 alt="Georgia">
+                            <p>Georgia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/germany.png.png" id=80 alt="Germany">
+                            <p>Germany</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/ghana.png.png" id=81 alt="Ghana">
+                            <p>Ghana</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/gibraltar.png.png" id=82 alt="Gibraltar">
+                            <p>Gibraltar</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/greece.png.png" id=83 alt="Greece">
+                            <p>Greece</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/greenland.png.png" id=84 alt="geernland">
+                            <p>Greenland</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/grenada.png.png" id=85 alt="grenada">
+                            <p>Grenada</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/guam.png.png" id=86 alt="guam">
+                            <p>Guam</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/guatemala.png.png" id=87 alt="guatemala">
+                            <p>Guatemala</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/guernsey.png.png" id=88 alt="guernsey">
+                            <p>Guernsey</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/guinea.png.png" id=89 alt="guinea">
+                            <p>Guinea</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/guinea_bissau.png.png" id=90 alt="Guinea Bissau">
+                            <p>Guinea Bissau</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/guyana.png.png" id=91 alt="guyana">
+                            <p>Guyana</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/haiti.png.png" id=92 alt="haiti">
+                            <p>haiti</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/honduras.png.png" id=93 alt="honduras">
+                            <p>Honduras</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/hong_kong.png.png" id=94 alt="hong kong">
+                            <p>Hong Kong</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/hungary.png.png" id=95 alt="hungary">
+                            <p>Hungary</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/iceland.png.png" id=96 alt="iceland">
+                            <p>Iceland</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/india.png.png" id=97 alt="india">
+                            <p>India</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/indonesia.png.png" id=98 alt="indonesia">
+                            <p>Indonesia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/iran.png.png" id=99 alt="iran">
+                            <p>Iran</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/iraq.png.png" id=100 alt="Iraq">
+                            <p>iraq</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/ireland.png.png" id=101 alt="ireland">
+                            <p>Ireland</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/isle_of_man.png.png" id=102 alt="isle of man">
+                            <p>Isle of Man</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/israel.png.png" id=103 alt="israel">
+                            <p>Israel</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/italy.png.png" id=104 alt="Italy">
+                            <p>Italy</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/IVORYCOAST.png.png" id=105 alt="IVORY COAST">
+                            <p>Ivory Coast</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/jamaica.png.png" id=106 alt="jamaica">
+                            <p>Jamaica</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/japana.png.png" id=107 alt="Japan">
+                            <p>Japan</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/jersey.png.png" id=108 alt="jersey">
+                            <p>Jersey</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/jordan.png.png" id=109 alt="Jordan">
+                            <p>Jordan</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/kazakhstan.png.png" id=110 alt="Kazakhstan">
+                            <p>Kazakhstan</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/kenya.png.png" id=111 alt="Kenya">
+                            <p>Kenya</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/kiribati.png.png" id=112 alt="Kiribati">
+                            <p>Kiribati</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/kosovo.png.png" id=113 alt="Kosovo">
+                            <p>Kosovo</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/kuwait.png.png" id=114 alt="Kuwait">
+                            <p>Kuwait</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/kkyrgyzstan.png.png" id=115 alt="yrgyzstan">
+                            <p>Kyrgyzstan</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/loas.png.png" id=116 alt="Laos">
+                            <p>Laso</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/latvia.png.png" id=117 alt="Latvi">
+                            <p>Latvi</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/lebanon.png.png" id=118 alt="Lebanon">
+                            <p>Lebanon</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/lesotho.png.png" id=119 alt="Lesotho">
+                            <p>Lesotho</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/liberia.png.png" id=120 alt="Liberia">
+                            <p>Liberia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/libya.png.png" id=121 alt="Libya">
+                            <p>Libya</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/liechtenstein.png.png" id=122 alt="Liechtenstein">
+                            <p>Liechtenstein</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/lithuania.png.png" id=123 alt="Lithuania">
+                            <p>Lithuania</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/luxembourg.png.png" id=124 alt="Luxembourg">
+                            <p>Luxembourg</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/macau.png.png" id=125 alt="Macau">
+                            <p>Macau</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/north_macedonia.png.png" id=126 alt="North Macedonia">
+                            <p>Macedonia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/madagascar.png.png" id=127 alt="Madagascar">
+                            <p>Madagascar</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/malawi.png.png" id=128 alt="Malawi">
+                            <p>Malawi</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/malaysia.png.png" id=129 alt="Malaysia">
+                            <p>Malaysia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/maldives.png.png" id=130 alt="Maldives">
+                            <p>Maldives</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/mali.png.png" id=131 alt="Mali">
+                            <p>Mali</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/malta.png.png" id=132 alt="Malta">
+                            <p>Malta</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/marshall_islands.png.png" id=133 alt="Marshall islands">
+                            <p>Marshall Islands</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/maurtiania.png.png" id=134 alt="Mauritania">
+                            <p>Mauritania</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/mauritius.png.png" id=135 alt="Mauritius">
+                            <p>Mauritius</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/mayotte.png.png" id=136 alt="Mayotte">
+                            <p>Mayotte</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/mexico.png.png" id=137 alt="Mexico">
+                            <p>Mexico</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/micronesia.png.png" id=138 alt="Micronesia">
+                            <p>Micronesia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/MOLDOVA.png.png" id=139 alt="MOLDOVA">
+                            <p>Moldova</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/monaco.png.png" id=140 alt="Monaco">
+                            <p>Monaco</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/mongolia.png.png" id=141 alt="Mongolia">
+                            <p>Mongolia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/montenegro.png.png" id=142 alt="Montenegro">
+                            <p>Montenegro</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/montserrat.png.png" id=143 alt="Montserrat">
+                            <p>Montserrat</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/morocco.png.png" id=144 alt="Morocco">
+                            <p>Morocco</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/mozambique.png.png" id=145 alt="Mozambique">
+                            <p>Mozambique</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/myanmar.png.png" id=146 alt="Myanmar">
+                            <p>Myanmar</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/namibia.png.png" id=147 alt="Namibia">
+                            <p>Namibia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/nauru.png.png" id=148 alt="Nauru">
+                            <p>Nauru</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/nepla.png.png" id=149 alt="Nepal">
+                            <p>Nepal</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/netherland.png.png" id=150 alt="Netherlands">
+                            <p>Netherlands</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/NetherlandsAntilles.png.png" id=151 alt="Netherlands Antilles">
+                            <p>Netherlands Antilles</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/new_caledonia.png.png" id=152 alt="New Caledonia">
+                            <p>New Caledonia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/new_zealand.png.png" id=153 alt="New Zealand">
+                            <p>New Zealand</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/nicaragua.png.png" id=154 alt="Nicaragua">
+                            <p>Nicaragua</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/niger.png.png" id=155 alt="Niger">
+                            <p>Niger</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/nigeria.png.png" id=156 alt="Nigeria">
+                            <p>Nigeria</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/niye.png.png" id=157 alt="Niue">
+                            <p>Niue</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/north_korea.png.png" id=158 alt="North Korea">
+                            <p>North Korea</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/NORTHERNMARIANAISLANDS.png.png" id=159 alt="Northern Mariana Islands">
+                            <p>Northern <br> Mariana Islands</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/norway.png.png" id=160 alt="Norway">
+                            <p>Norway</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/oman.png.png" id=161 alt="Oman">
+                            <p>Oman</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/pakistan.png.png" id=162 alt="Pakistan">
+                            <p>Pakistan</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/palau.png.png" id=163 alt="Palau">
+                            <p>Palau</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/palestine.png.png" id=164 alt="Palestine">
+                            <p>Palestine</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/pananma.png.png" id=165 alt="Panama">
+                            <p>Panama</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/papua_new_guines.png.png" id=166 alt="Papua New Guinea">
+                            <p>Papua New Guinea</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/paraguay.png.png" id=167 alt="Paraguay">
+                            <p>Paraguay</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/peru.png.png" id=168 alt="Peru">
+                            <p>Peru</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/philippines.png.png" id=169 alt="Philippines">
+                            <p>Philippines</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/pitcairn_island.png.png" id=170 alt="Pitcairn Islands">
+                            <p>Pitcairn Islands</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/poland.png.png" id=171 alt="Poland">
+                            <p>Poland</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/portugal.png.png" id=172 alt="Portugal">
+                            <p>Portugal</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/puerto_rico.png.png" id=173 alt="Puerto Rico">
+                            <p>Puerto Rico</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/qatar.png.png" id=174 alt="Qatar">
+                            <p>Qatar</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/reunion.png.png" id=175 alt="Reunion">
+                            <p>Reunion</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/romania.png.png" id=176 alt="Romania">
+                            <p>Romania</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/russia.png.png" id=177 alt="Russia">
+                            <p>Russia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/rawand.png.png" id=178 alt="Rwanda">
+                            <p>Rwanda</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/saint_kitts_and_nevis.png.png" id=179 alt="Saint Kitts and Nevis">
+                            <p>Saint Kitts and Nevis</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/saint_lucia.png.png" id=180 alt="Saint Lucia">
+                            <p>Saint Lucia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/saint_vincent.png.png" id=181 alt="Saint Vincent">
+                            <p>Saint Vincent</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/samoa.png.png" id=182 alt="Samoa">
+                            <p>Samoa</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/saudi_arabia.png.png" id=183 alt="Saudi Arabia">
+                            <p>Saudi Arabia</p>
+                        </li>
+                        <!-- <li>
+                            <img class="imgFlag" src="flagImg/scotland.png.png" id=184 alt="Scotland">
+                            <p>Scotland</p>
+                        </li> -->
+                        <li>
+                            <img class="imgFlag" src="flagImg/serbia.png.png" id=184 alt="Serbia">
+                            <p>Serbia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/sierra_leone.png.png" id=185 alt="Sierra Leone">
+                            <p>Sierra Leone</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/singapore.png.png" id=186 alt="Singapore">
+                            <p>Singapore</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/slovakia.png.png" id=187 alt="Slovakia">
+                            <p>Slovakia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/slovenia.png.png" id=188 alt="Slovenia">
+                            <p>Slovenia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/somalia.png.png" id=189 alt="Somalia">
+                            <p>Somalia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/south_africa.png.png" id=190 alt="South Africa">
+                            <p>South Africa</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/south_koria.png.png" id=191 alt="south_koria">
+                            <p>South Korea</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/south_soudan.png.png" id=192 alt="South Sudan">
+                            <p>South Sudan</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/spain.png.png" id=193 alt="Spain">
+                            <p>Spain</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/sri_lanka.png.png" id=194 alt="Sri Lanka">
+                            <p>Sri Lanka</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/sweden.png.png" id=195 alt="Sweden">
+                            <p>Sweden</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/switzland.png.png" id=196 alt="Switzerland">
+                            <p>Switzerland</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/syria.png.png" id=197 alt="Syria">
+                            <p>Syria</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/taiwan.png.png" id=198 alt="Taiwan">
+                            <p>Taiwan</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/tajikistan.png.png" id=199 alt="Tajikistan">
+                            <p>Tajikistan</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/tanzania.png.png" id=200 alt="Tanzania">
+                            <p>Tanzania</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/thailand.png.png" id=201 alt="Thailand">
+                            <p>Thailand</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/tunisia.png.png" id=202 alt="Tunisia">
+                            <p>Tunisia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/turkey.png.png" id=203 alt="Turkey">
+                            <p>Turkey</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/turknmentsatn.png.png" id=204 alt="Turkmenistan">
+                            <p>Turkmenistan</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/uganda.png.png" id=205 alt="Uganda">
+                            <p>Uganda</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/ukraine.png.png" id=206 alt="Ukraine">
+                            <p>Ukraine</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/united_arab_emirates.png.png" id=207 alt="United Arab Emirates">
+                            <p>United Arab Emirates</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/united_kingdom.png.png" id=208 alt="United Kingdom">
+                            <p>United Kingdom</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/united_states.png.png" id=209 alt="United States">
+                            <p>United States</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/urugay.png.png" id=210 alt="Uruguay">
+                            <p>Uruguay</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/uzbbekistan.png.png" id=211 alt="Uzbekistan">
+                            <p>Uzbekistan</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/venezuela.png.png" id=212 alt="Venezuela">
+                            <p>Venezuela</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/vietnam.png.png" id=213 alt="Vietnam">
+                            <p>Vietnam</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/yemen.png.png" id=214 alt="Yemen">
+                            <p>Yemen</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/zambia.png.png" id=215 alt="Zambia">
+                            <p>Zambia</p>
+                        </li>
+                        <li>
+                            <img class="imgFlag" src="flagImg/zembawbe.png.png" id=216 alt="Zimbabwe">
+                            <p>Zimbabwe</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </article>
+    </main>
+    
+    <main class="mt-4" id="maineCountainer">
+        <i class="fa fa-angle-left angle_left" id="backButton"></i>
+        <article>
+            <section>
+                <div class="container">
+                    <div class="container_body">
+                        <div class="container_text">
+                            <!-- country heading  -->
+                            <div class="country_heading">
+                                <h1 class="country"></h1>
+                                <h2 class="capital"></h2>
+                            </div>
+                            <div class="country_heading">
+                                <p class="population"></p>
+                                <p class="area"></p>
+                            </div>
+                            <div class="country_heading">
+                                <p class="gdp"></p>
+                                <p class="dialing_code"></p>
+                            </div>
+                            <div class="country_heading">
+                                <p class="currency"></p>
+                                <p class="continent"></p>
+                            </div>
+                            <div class="country_heading">
+                                <p class="animal"></p>
+                                <p class="national_game"></p>
+                            </div>
+                            <div class="country_heading">
+                                <p class="national_days"></p>
+                                <p class="official_languages"></p>
+                            </div>
+                            <div class="country_heading">
+                                <p class="religion"></p>
+                                <p class="description"></p>
+                            </div>
+                            <div class="country_heading flagStick">
+                            </div>
+                            <div class="country_heading">
+                                <img class="flags"  alt="This is a flag">
+                                <iframe src="" class="google_map"></iframe>
+                            </div>
+                            <div class="country_heading">
+                                <audio autoplay class="national_song"></audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <main>
+        <article>
+            <section>
+                <div class="social_icon">
+                    <div class="toolTip">
+                        <p class="socialPop">Email</p>
+                        <a href="mailto: mdajmalali747@gmail.com"><i class="fa fa-envelope-o iconPop"></i></a>
+                    </div>
+                    <div class="toolTip">
+                        <p class="socialPop">Phone</p>
+                        <a href="tel: 9015914116"><i class="fa fa-phone iconPop"></i></a>
+                    </div>
+                    <div class="toolTip">
+                        <p class="socialPop">Whatsapp</p>
+                        <a href="https://api.whatsapp.com/send?phone=+919015914116&text= I have something to ask you"><i class="fa fa-whatsapp iconPop"></i></a>
+                    </div>
+
+                    <div class="plus_icon">
+                        <i class="fa fa-plus"></i>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <article>
+            <section>
+                    <div class="footer">
+                        <p>&copy Copy Right <span id="date"></span> MOHMMAD AZMAL ALI</p>
+                </div>
+            </section>
+        </article>
+    </footer>
+
+    
+</body>
+</html>
